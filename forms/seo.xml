@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fieldset name="phocaseo_seo" label="COM_PHOCASEO_SEO_TAB">
+        <field name="focus_keyword" type="hidden" />
+        <field name="seo_score" type="hidden" />
+        <field name="canonical_url" type="hidden" />
+    </fieldset>
+</form>

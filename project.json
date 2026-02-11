@@ -1,0 +1,20 @@
+{
+	"author": "Jan Pavelka (www.phoca.cz)",
+	"authorUrl": "https://www.phoca.cz",
+	"copyright": "Jan Pavelka",
+	"license": "GNU/GPL",
+	"projectName": "PhocaSeoSystemPlugin",
+	"extensionName": "Phoca Seo System Plugin",
+	"projectInitials" : "Seo",
+	"description": "Phoca SEO System plugin - SEO assistant for Joomla CMS.",
+	"projectUrl": "https://www.phoca.cz/",
+	"projectDocumentationUrl": "https://www.phoca.cz/documentation",
+	"projectMainComponent": "Phoca Seo",
+	"projectMainComponentInfoUrl": "https://www.phoca.cz/",
+	"projectDemo" : {
+		"Joomla! 6 Demo": "https://www.phoca.cz/"
+	},
+	"projectColor": "#D50000",
+	"projectBranch": "main",
+	"nameSpace": "Phoca\\Plugin\\System\\PhocaSeo"
+}

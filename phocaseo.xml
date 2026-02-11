@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade" version="6.0">
+	<name>plg_system_phocaseo</name>
+	<author>Jan Pavelka (www.phoca.cz)</author>
+	<creationDate>11/02/2026</creationDate>
+	<authorEmail></authorEmail>
+	<authorUrl>https://www.phoca.cz</authorUrl>
+	<copyright>Jan Pavelka</copyright>
+	<license>GNU/GPL</license>
+	<version>6.0.0Alpha14</version>
+	<description>PLG_SYSTEM_PHOCASEO_DESCRIPTION</description>
+	<namespace path="src">Phoca\Plugin\System\PhocaSeo</namespace>
+	<projectName>PhocaSeoSystemPlugin</projectName>
+
+	<files>
+		<folder>src</folder>
+		<folder>forms</folder>
+		<folder plugin="phocaseo">services</folder>
+	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_phocaseo.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_phocaseo.sys.ini</language>
+	</languages>
+
+	<administration>
+		<languages>
+			<language tag="en-GB">language/en-GB/en-GB.plg_system_phocaseo.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.plg_system_phocaseo.sys.ini</language>
+		</languages>
+	</administration>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+			</fieldset>
+		</fields>
+	</config>
+
+	<updateservers>
+		<server type="extension" name="PLG_SYSTEM_PHOCASEO" priority="1"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaSeoSystemPlugin/main/manifest.xml]]></server>
+	</updateservers>
+</extension>
