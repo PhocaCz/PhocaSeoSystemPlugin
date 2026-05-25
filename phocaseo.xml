@@ -2,20 +2,21 @@
 <extension type="plugin" group="system" method="upgrade" version="6.0">
 	<name>plg_system_phocaseo</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
-	<creationDate>11/02/2026</creationDate>
+	<creationDate>25/05/2026</creationDate>
 	<authorEmail></authorEmail>
 	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
 	<license>GNU/GPL</license>
-	<version>6.0.0Alpha14</version>
+	<version>6.1.0</version>
 	<description>PLG_SYSTEM_PHOCASEO_DESCRIPTION</description>
 	<namespace path="src">Phoca\Plugin\System\PhocaSeo</namespace>
 	<projectName>PhocaSeoSystemPlugin</projectName>
 
 	<files>
-		<folder>src</folder>
 		<folder>forms</folder>
+		<folder>src</folder>
 		<folder plugin="phocaseo">services</folder>
+		<filename plugin="phocaseo">manifest.xml</filename>
 	</files>
 
 	<languages>
